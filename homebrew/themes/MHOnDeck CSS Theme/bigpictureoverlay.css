@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&family=Mulish:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: bodyFont;
+    src: url("/themes_custom/MHOnDeck CSS Theme/assets/font.otf");
+}
+
+.quickaccessmenu_Menu_1gJzx,
+.quickaccessmenu_Container_3DHXr,
+.friendlistListContainer.GamepadMode, .GamepadMode .friendlistListContainer,
+.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, 
+.friendGroup.gameGroup .groupName,
+.ingame .personanameandstatus_playerName_r62qz.GamepadMode, 
+.GamepadMode .ingame .personanameandstatus_playerName_r62qz,
+.GamepadMode .ingame .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N,
+.personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .personanameandstatus_playerName_r62qz, .personanameandstatus_playerNickname_3T-9P.GamepadMode, .GamepadMode .personanameandstatus_playerNickname_3T-9P
+{
+    font-family: bodyFont, sans-serif;
+}
+
+/* ===== Active Menu ===== */
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 {
+    background: rgb(36,11,3) !important;
+    background: -moz-linear-gradient(106deg, rgba(36,11,3,1) 0%, rgba(106,31,7,1) 44%, rgba(103,32,9,1) 100%) !important;
+    background: -webkit-linear-gradient(106deg, rgba(36,11,3,1) 0%, rgba(106,31,7,1) 44%, rgba(103,32,9,1) 100%) !important;
+    background: linear-gradient(106deg, rgba(36,11,3,1) 0%, rgba(106,31,7,1) 44%, rgba(103,32,9,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240b03",endColorstr="#672009",GradientType=1) !important;
+}
+
+.mainmenu_Item_2w9Tp:hover {
+    background: rgba(53, 15, 3, 0.66);
+}
+
+.mainmenu_Menu_23IDi {
+    padding: 16px;
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/bg.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader,
+button.gamepaddialog_Button_1kn70.DialogButton,
+.quickaccessmenu_Title_34nl5,
+.mainmenu_Item_2w9Tp .mainmenu_ItemLabel_3x-ZK {
+    font-family: 'Markazi Text', serif !important;
+    font-size: 1.35rem;
+}
+
+/* ===== Quick Access Menu ===== */
+
+.quickaccessmenu_Title_34nl5 {
+    background: #230a03;
+    box-shadow: none;
+}
+
+.quickaccessmenu_Title_34nl5,
+#QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+}
+
+.gamepaddialog_FieldLabel_3b0U- {
+    font-size: 12px;
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/quick-access-menu/deco-left.png") repeat-y left 0px center,
+    linear-gradient(
+        0deg, rgba(36,11,3,0.825) 100%, 
+        rgba(106,31,7,0.44861694677871145) 40%, 
+        rgba(103,32,9,0) 85%) no-repeat center bottom 0px,
+    url("/themes_custom/MHOnDeck CSS Theme/assets/quick-access-menu/rahatlos.gif") no-repeat right bottom 0px,
+    linear-gradient(180deg, #200505 0%, #5e441b 100%);
+    background-size: 11px auto, cover, auto 68vh, cover;
+}
+
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    display: none;
+}
+
+.standardtemplates_StandardTemplate_3e_DB:hover, .standardtemplates_PinnedTemplate_2eBei:hover {
+    background-color: #441a0d;
+}
+
+* > .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton, 
+* > .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton.Primary, 
+* > .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled, 
+* > .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary, 
+* > .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:active, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton.Primary, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:enabled, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:active, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
+    background: linear-gradient(135deg, rgba(106, 82, 20, 0.4) 0%, rgba(255, 255, 191, 0.4) 44%, rgba(148, 126, 64, 0.4));
+    background-size: 100% auto;
+    color: #fff5e0;
+    font-size: 1.15rem;
+    border-radius: 600px;
+    font-family: 'Markazi Text', sans-serif !important;
+    text-shadow: -1px 1px 1px #180b0b;
+    transition: box-shadow 0.32s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.standardtemplates_StandardTemplate_3e_DB.gpfocus, .standardtemplates_PinnedTemplate_2eBei.gpfocus,
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin, 
+.gamepaddialog_Field_S-_La.gamepaddialog_Clickable_27UVY:not(.gamepaddialog_Disabled_1pmyx):hover {
+    background-color: #350f03 !important;
+    background: #350f03 !important;
+    border: solid thin #441a0d;
+}
+
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.Focusable.mainmenu_Item_2w9Tp.gpfocus:enabled.gpfocus, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus,
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active,
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:hover, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled:hover, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:active:hover, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:hover,
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active,
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:hover, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:enabled:hover, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:active:hover, 
+.soundtrackcontrols_QuickAccess_3_y7M button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:hover {
+    box-shadow: 0px 0px 24px -8px #f5a905 !important;
+    border: solid thin #92680f;
+}
+
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+    animation: none;
+}
+
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, .gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus {
+    box-shadow: none;
+}
+
+.quickaccessmenu_Tab_1S76C {
+    margin-left: 8px;
+    color: #FFF;
+    margin-top: 4px;
+}
+
+.quickaccessmenu_Tab_1576C.quickaccessmenu_Selected_2QHMu.gpfocus,
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+    background: rgba(36, 11, 3, 0.75) !important;
+    border: solid thin #441a0d !important;
+    color: #ffaf01 !important;
+}
+
+.quickaccessmenu_Tabs_3Ag1w::after {
+    content: none;
+}
+
+.BasicUI .standardtemplates_StandardTemplateContainer_1adpx:hover, 
+.BasicUI .standardtemplates_StandardTemplateContainer_1adpx.gpfocus {
+    opacity: 0.65;
+    background-color: transparent;
+}
+
+.friendGroup .groupName.GamepadMode, 
+.GamepadMode .friendGroup .groupName {
+    letter-spacing: 0.85px;
+}
+
+.GamepadMode .personanameandstatus_playerName_r62qz {
+    font-size: 0.65rem;
+}
+
+.personanameandstatus_twoLine_27M2G .personanameandstatus_richPresenceLabel_1k82N {
+    font-size: 0.60rem;
+}
+
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
+    height: 10px;
+    position: relative;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-top: 8px;
+}
+
+.gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after,
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends.GamepadMode, 
+.GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends,
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends.GamepadMode, 
+.GamepadMode .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+    border-top: none;
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/shared/border-tiny.png") repeat-x center top 0px;
+    background-size: auto 10px;
+}
+
+.quickaccesscontrols_QuickAccessNotifications_2HCcx:not(.quickaccesscontrols_VR_31jiF)>div:not(:focus)+div:not(:focus):before, 
+.quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:hover)+div:not(:hover):before, .quickaccesscontrols_QuickAccessNotifications_2HCcx>div:not(:hover)+div.quickaccesscontrols_EmptyNotifications_1g1_n:before {
+    border-bottom: none;
+    height: 4px;
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/shared/border-tiny.png") repeat-x center center;
+    background-size: auto 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    left: 0px;
+    right: 0px;
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, 
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC {
+    color: #f5a905;
+}
+
+#QuickAccess-Menu .gamepaddialog_Field_S-_La.gamepaddialog_ChildrenWidthFixed_1ugIU .gamepaddialog_FieldChildrenInner_3N47t button {
+    padding-left: 32px;
+    padding-right: 28px;
+}
+
+.GamepadMode.friendlist {
+    background: none;
+}
+
+.GamepadMode.friendlist .FriendsListTab {
+    color: #FFF;
+}
+
+.GamepadMode.friendlist .FriendsListTab.Active {
+    color: #ffaf01;
+}
+
+/* TOGGLE OFF */
+.gamepaddialog_ToggleSwitch_3__OD,
+.gamepaddialog_Toggle_24G4g.gpfocus .gamepaddialog_ToggleSwitch_3__OD {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/icons/bullet-icon.png") no-repeat center center !important;
+    background-size: contain !important;
+    left: -3.5px;
+    top: -3.5px;
+    
+    width: 30px;
+    height: 30px;
+    box-shadow: none;
+}
+
+/* TOGGLE ON */
+.gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T .gamepaddialog_ToggleSwitch_3__OD {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/icons/bullet-active-icon.png") no-repeat center center !important;
+    background-size: contain !important;
+    top: -3.5px;
+    left: auto;
+    box-shadow: none;
+}
+
+.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleRail_2JtC3::before {
+    opacity: 1;
+}
+
+.gamepaddialog_Toggle_24G4g.gpfocus:after,
+.gamepaddialog_Toggle_24G4g:not(.gamepaddialog_Disabled_1pmyx):hover {
+    box-shadow: 0px 0px 0px 1px rgb(245 171 0);
+    background-color: transparent !important;
+}
+
+/* TOGGLE DISABLED */
+.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx {
+    opacity: 0.45;
+}
+
+.gamepaddialog_Toggle_24G4g.gamepaddialog_Disabled_1pmyx .gamepaddialog_ToggleRail_2JtC3 {
+    background: #a03f34;
+}
+
+.gamepaddialog_Toggle_24G4g:not(.gamepaddialog_On_3ld7T) .gamepaddialog_ToggleRail_2JtC3::before {
+    transform: none;
+    background: transparent;
+}
+
+.gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD {
+    border: none;
+    margin: unset;
+}
+
+.gamepaddialog_ToggleRail_2JtC3::before {
+    background-color: #f5a905;
+}
+
+.gamepadslider_SliderHandle_2yVKj {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/decor/button-icon-square.png") no-repeat center center;
+    background-size: contain;
+    border-radius: 4px;
+}
+
+.gamepadslider_SliderTrack_Mq25N::before {
+    background: #f5a905;
+}
+
+.quickaccessmenu_Tab_1S76C {
+    min-height: 52px;
+    height: 52px;
+}
+
+/* ===== Game Menu Navigation ===== */
+
+.mainmenuapprunning_NavigationColumn_27FEg {
+    background: 
+        url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/bg.jpg") repeat center center,
+        linear-gradient(183deg,#fff5e0 0%,#d1c8b3 100%) no-repeat center center;
+    background-size: auto, cover;
+}
+
+.mainmenuapprunning_NavigationColumn_27FEg:after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/globe-emblem.svg") no-repeat center center;
+    background-size: auto 65vh;
+    opacity: .85;
+    mix-blend-mode: soft-light;
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4.gpfocus {
+    animation: none !important;
+    mix-blend-mode: unset;
+    transform: scale(1.25);
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i,
+.mainmenuapprunning_NavigationMenuItem_1G0K4.mainmenuapprunning_Active_1jG8i.Focusable.gpfocus,
+.mainmenuapprunning_NavigationMenuItem_1G0K4 {
+    font-family: 'Markazi Text', serif !important;
+    font-size: 1.5rem !important;
+    color: #180b0b !important;
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4:hover {
+    text-shadow: 0px 0px 5px #ffaf01;
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4 .mainmenuapprunning_ActiveDot_13YbV {
+    background:#350f03;
+    color: #180b0b;
+    border-radius: 0px;
+}
+
+/* ===== Collapsed Main Menu ===== */
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q:not(.mainmenu_VR_1ABsh) .mainmenu_Item_2w9Tp {
+    justify-content: center;
+    align-items: center;
+    font-family: column nowrap;
+    padding: 0px 0px !important;
+    margin: auto;
+    transform: none;
+    display: block;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q:not(.mainmenu_VR_1ABsh) .mainmenu_ItemLabel_3x-ZK {
+    transform: none;
+    text-align: center;
+    max-width: unset;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q:not(.mainmenu_VR_1ABsh) 
+    .mainmenu_ItemOuter_1BbM8 .mainmenu_ItemLabel_3x-ZK::before {
+    transform: none;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    display: block;
+    margin: auto;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q:not(.mainmenu_VR_1ABsh)>*,
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 {
+    transform: none;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_Item_2w9Tp,
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_ItemOuter_1BbM8 {
+    width: auto;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_ItemOuter_1BbM8 {
+    margin: 0px auto;
+    max-width: 76px;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_Item_2w9Tp {
+    height: auto;
+    max-height: unset !important;
+    margin: auto;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_ItemOuter_1BbM8 .mainmenu_ItemLabel_3x-ZK .marquee_Content_2ADpT {
+    display: none;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_ItemOuter_1BbM8:nth-of-type(1) {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_ItemOuter_1BbM8:nth-of-type(1) .mainmenu_Item_2w9Tp {
+    width: 100%;
+    display: flex;
+}
+
+.mainmenu_Menu_23IDi.mainmenu_Collapsed_3I23q .mainmenu_ItemOuter_1BbM8:nth-of-type(1) .mainmenu_Item_2w9Tp .mainmenu_ItemLabel_3x-ZK {
+    display: none;
+}
+
+.mainmenuapprunning_ScrollMask_322FV {
+    margin-bottom: 0px;
+}
+
+/* ===== Menu Item Icon Replacement ====== */
+.mainmenu_ItemOuter_1BbM8 svg {
+    display: none;
+}
+
+.mainmenu_ItemOuter_1BbM8 .mainmenu_ItemLabel_3x-ZK {
+    margin-left: 32px;
+    color: #FFF;
+}
+
+.mainmenu_ItemOuter_1BbM8 .mainmenu_ItemLabel_3x-ZK::before {
+    content: "";
+    display: inline-block;
+    height: 2em;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: background .2s ease-in;
+    width: 2em;
+}
+
+/* 
+    Shifts icon arrangement when a game is running and first 
+    menu item is the game title + icon preview
+    See: https://codepen.io/matthemattics/pen/ExaQZQR
+*/
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(1) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    content: none;
+}
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(1) .mainmenu_ItemLabel_3x-ZK,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK {
+    margin-left: 16px;
+}
+
+/* Home Icon */
+
+.mainmenu_ItemOuter_1BbM8:nth-of-type(1) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(3) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/home-main-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Library */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(2) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(4) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/library-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Store */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(3) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(5) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/store-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Friends */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(4) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(6) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/friends-main-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Media */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(5) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(7) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/media-display-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Downloads Icon */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(6) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(8) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/downloads-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Settings Icon */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(7) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(9) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/setting-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* Power Icon */
+.mainmenu_ItemOuter_1BbM8:nth-of-type(8) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) ~ .mainmenu_ItemOuter_1BbM8:nth-of-type(10) .mainmenu_ItemLabel_3x-ZK::before,
+.mainmenu_ItemOuter_1BbM8:first-child:nth-last-child(11) .mainmenu_ItemLabel_3x-ZK::before {
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/main-menu/icons/power-icon.png") no-repeat center center;
+    background-size: 28px;
+}
+
+/* ===== Controller Page ===== */
+.gamepadpagedsettings_PageListItem_Icon_1F_5Q img {
+    filter:hue-rotate(215deg) !important;
+    fill: #350f03;
+    background-color: #350f03;
+}
+
+.mainmenu_Item_2w9Tp {
+    border: solid 2px transparent;
+}
+
+.Focusable.mainmenu_Item_2w9Tp.gpfocus,
+.mainmenu_Item_2w9Tp.gpfocus.gpfocuswithin,
+.mainmenu_Item_2w9Tp:hover {
+    text-shadow: 0px 0px 5px #ffaf01;
+    background: transparent !important;
+    animation: none !important;
+    background: url("/themes_custom/MHOnDeck CSS Theme/assets/icons/monster-icon-brown_1.svg") no-repeat center right 36px,
+    #240b03 !important;
+    background-size: auto 45px, cover !important;
+    border-radius: 0px;
+    transform: scale(1.08);
+    border-color: #441a0d;
+}
